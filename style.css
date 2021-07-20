@@ -1,0 +1,30 @@
+.jumbotron {
+  padding: 2rem 1rem;
+  background-color: #d6e9f8;
+}
+
+.study {
+  background-color: #d6e9f8;
+}
+
+.col-6 {
+  text-align: center;
+}
+
+footer {
+  padding: 2.5rem;
+  background-color: #0dcaf0;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(50, 15, 146);
+}
+
+.contact a {
+  text-decoration: none;
+  color: rgb(50, 15, 146);
+}
+.card{
+  box-shadow: black;
+}
+}
