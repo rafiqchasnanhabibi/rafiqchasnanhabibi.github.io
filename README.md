@@ -1,3 +1,7 @@
-# portfolio-2
+## Contribution 😊
+This code is editable from **Usman Liaqat**'s code.
 
-Live: https://portofolio-2.web.app/
+Thanks to him.👏🏻
+
+
+Follow [his Github](https://github.com/UsmanLiaqat99) to more information
