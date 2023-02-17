@@ -1,34 +1,5 @@
 'use strict';
 
-$.getJSON('data.json',function(data) {
-  console.log(data);
-  $.each(data,function(i,data){
-      $('#isi-porto').append(
-          <ul class="project-list">
-
-          <li class="project-item  active" data-filter-item data-category="+data.logo+">
-            <a href="#">
-
-              <figure class="project-img">
-                <div class="project-item-icon-box">
-                  <ion-icon name="eye-outline"></ion-icon>
-                </div>
-
-                <img src="./assets/images/+data.gambar+" alt="+data.teksalter+" loading="lazy">
-              </figure>
-
-              <h3 class="project-title">data.judul</h3>
-
-              <p class="project-category">data.kate</p>
-
-            </a>
-          </li>
-
-        </ul>
-      ;
-  });
-});
-
 
 
 
@@ -187,4 +158,34 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
 
   });
-}
+};
+
+
+$.getJSON('data.json',function(data) {
+  console.log(data);
+  $.each(data,function(i,data){
+      $('#isi-porto').append(
+          <ul class="project-list">
+
+          <li class="project-item  active" data-filter-item data-category="+data.logo+">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/+data.gambar+" alt="+data.teksalter+" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">data.judul</h3>
+
+              <p class="project-category">data.kate</p>
+
+            </a>
+          </li>
+
+        </ul>
+      ;
+  });
+});
